@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 
 # importing the dataset
-data = pd.read_csv('IMDB_dataset.csv')
+data = pd.read_csv('imdb_dataset.csv')
 data = data.iloc[0:5000, :]
 
 # corpus = []
